@@ -1,0 +1,7 @@
+public static int sumOfDigits(int[] digits) {
+        int sum = 0;
+        for (int digit : digits) {
+            sum += digit;
+        }
+        return sum;
+    }
