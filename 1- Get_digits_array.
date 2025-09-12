@@ -1,0 +1,10 @@
+public static int[] getDigitsArray(int number) {
+        int length = countDigits(number);
+        int[] digits = new int[length];
+        int n = number;
+        for (int i = length - 1; i >= 0; i--) {
+            digits[i] = n % 10;
+            n /= 10;
+        }
+        return digits;
+    }
